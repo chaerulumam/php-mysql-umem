@@ -5,8 +5,8 @@ require "./getConnection.php";
 $connection = getConnection();
 
 $sql = <<<SQL
-    INSERT INTO customers (id, name, email)
-    VALUES('C002', 'Chaerul', 'chaerul@gmail.com');
+    INSERT INTO admin (username, password)
+    VALUES('admin123', 'admin123');
 
 SQL;
 
